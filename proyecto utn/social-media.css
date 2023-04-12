@@ -1,0 +1,39 @@
+.chat-us {
+    width: 100%;
+    box-sizing: border-box;
+    display:inline-block;
+    height: 200px;
+  }
+  
+  .chat-us img {
+    width: 200px; /* establece el ancho de las imágenes */
+    height: 150px; /* establece la altura de las imágenes */
+  }
+  
+/* Estilos CSS para la imagen de WhatsApp */
+  .chat-us .whatsapp-img {
+   cursor: pointer;
+   float: left;
+  }
+  
+
+
+
+/* Estilos CSS para la imagen de chat */
+.chat-us .chat-img {
+  cursor: pointer;
+  float:right;
+} 
+
+/* Estilos CSS para los iconos de redes sociales */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+}

@@ -1,0 +1,266 @@
+/* Estilos generales */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color:#FEFFCE;
+  color: rgb(6, 6, 77);
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+/* Estilos del header */
+
+header {
+  background-color: rgb(120, 120, 252);
+  color: white;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  margin-bottom: 100px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start; 
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: rgb(249, 249, 117);
+}
+
+.hero {
+  text-align: center;
+  color:aquamarine;
+}
+
+.hero h1 {
+  margin-top: 0;
+  color:aquamarine;
+}
+
+.hero p {
+  margin-bottom: 40px;
+}
+
+button {
+  background-color: #FEFFCE;
+  color: rgb(120, 120, 252);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: rgb(128, 128, 237);
+  color: yellow;
+}
+
+/* Estilos del main */
+
+.destacados {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  }
+  
+  .destacados h2 {
+  text-align: center;
+  }
+  
+  .paquetes {
+  display: flex;
+  flex-wrap: wrap; /* Añadido */
+  justify-content: space-around;
+  align-items: center;
+  }
+  
+  .paquete {
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin-bottom: 20px;
+  }
+  
+  .paquete-esp {
+  width: 320px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin-bottom: 30px;
+  transition: all 500ms ease-out;
+  }
+  
+  .img-destacada img {
+  position: absolute;
+  width: 80px;
+  height: 60px;
+  opacity: 20%;
+  }
+  
+  .oculta {
+  display: none;
+  }
+  
+  .img-destacada img:hover {
+  opacity: 100%;
+  }
+  
+  .paquete-esp:hover {
+  box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .paquete img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  }
+  
+  .paquete h3 {
+  margin-top: 0;
+  }
+  
+  .paquete p {
+  margin-bottom: 20px;
+  }
+  
+  .paquete button {
+  margin-bottom: 20px;
+  }
+  
+  .ofertas {
+  text-align: center;
+  margin-bottom: 40px;
+  }
+  
+  .ofertas h2 {
+  margin-bottom: 20px;
+  }
+  
+  .ofertas-img {
+  display: flex;
+  flex-wrap: wrap; /* Añadido */
+  justify-content: space-around;
+  align-items: center;
+  }
+  
+  .ofertas-img img {
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+  }
+  
+  .ofertas-img img:hover {
+  width: 35%;
+  }
+  
+  /* Estilos del footer */
+  footer {
+  background-color: rgb(120, 120, 252);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  }
+  
+  footer p {
+  margin: 0;
+  margin-bottom: 10px;
+  }
+  
+  footer p:last-child {
+  margin-bottom: 0;
+  }
+  @media screen and (max-width: 767px) {
+    /* Estilos generales */
+    body {
+    font-size: 16px;
+    }
+    
+    /* Estilos del header */
+    header {
+    height: auto;
+    padding: 20px;
+    }
+    
+    nav {
+    margin-bottom: 50px;
+    }
+    
+    nav ul {
+    flex-direction: column;
+    }
+    
+    nav ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+    }
+    
+    .hero p {
+    margin-bottom: 20px;
+    }
+    
+    /* Estilos del main */
+    .destacados {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    
+    .paquetes {
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .paquete {
+    width: 80%;
+    margin-bottom: 30px;
+    }
+    
+    .paquete-esp {
+    width: 100%;
+    margin-bottom: 30px;
+    }
+    
+    .ofertas-img {
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .ofertas-img img {
+    margin-bottom: 20px;
+    }
+    
+    /* Estilos del footer */
+    footer {
+    padding: 20px;
+    }
+    
+    footer p {
+    margin-bottom: 5px;
+    }
+    }

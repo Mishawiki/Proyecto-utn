@@ -1,0 +1,121 @@
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para el header y nav */
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  font-weight: bold;
+}
+
+/* Estilos para el contenido principal */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.reservaciones {
+  margin-bottom: 40px;
+}
+
+.reservaciones form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.reservaciones label {
+  margin-right: 10px;
+}
+
+.reservaciones input[type="text"] {
+  flex: 1 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.reservaciones input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reservaciones input[type="submit"]:hover {
+  background-color: #666;
+}
+
+.destinos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.destino {
+  width: 33.33%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.destino h3 {
+  margin: 10px 0;
+}
+
+.destino p {
+  margin-bottom: 20px;
+}
+
+/* Estilos para el footer */
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
